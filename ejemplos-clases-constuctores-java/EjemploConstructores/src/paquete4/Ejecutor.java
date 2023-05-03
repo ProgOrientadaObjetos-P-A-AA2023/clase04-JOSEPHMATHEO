@@ -7,9 +7,12 @@ package paquete4;
 
 public class Ejecutor {
     public static void main(String[] args) {
+        
         // Se crea un objeto
         // haciendo referencia al constructor por defecto
+        
         FacturaTelefonica fac = new FacturaTelefonica();
+        
         System.out.printf("Número telefónico: %s\n"
                 + "Minutos mes: %.2f\nValor minuto: %.2f\n"
                 + "Valor factura: %.2f\n", fac.obtenerNumeroTelefono(),

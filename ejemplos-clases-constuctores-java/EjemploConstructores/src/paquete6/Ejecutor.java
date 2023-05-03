@@ -33,5 +33,7 @@ public class Ejecutor {
                 fac2.obtenerMinutosMes(),
                 fac2.obtenerValorMinuto(),
                 fac2.obtenerValorFactura());
+        
     }
+    
 }
