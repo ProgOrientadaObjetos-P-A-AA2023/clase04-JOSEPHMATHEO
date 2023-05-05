@@ -14,6 +14,7 @@ public class FacturaTelefonica {
     private double valorFactura;
 
     public FacturaTelefonica() {
+        
         numeroTelefono = "234567891";
         minutosMes = 200;
         valorMinuto = 0.15;
@@ -64,7 +65,14 @@ public class FacturaTelefonica {
     
     @Override
     public String toString(){
-        String cadena = obtenerNumeroTelefono();
+        
+        String cadena = numeroTelefono;
+                                        /* "String cadena = obtenerNumeroTelefono();" Esta linea de codigo es exactamente 
+                                        igual a la linea anterior, ya que se puede acceder a numTelefono porque estna en la
+                                        misma clase */
+        
+        
+        
         return cadena;
     }
     
