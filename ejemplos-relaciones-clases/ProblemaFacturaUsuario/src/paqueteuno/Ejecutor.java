@@ -24,7 +24,7 @@ public class Ejecutor {
                 "Número de teléfono: %s\n" +
                 "Minutos mensuales: %.2f\n" +
                 "Valor por minuto: %.2f\n" +
-                "Valor a cancelar: %.2f\n",
+                "Valor a cancelar: %.2f\n",         
                 factura.obtenerUsuario().obtenerNombre(),
                 factura.obtenerUsuario().obtenerApellido(),
                 factura.obtenerUsuario().obtenerIdentificacion(),
