@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package paqueteuno;
 import paquetedos.Usuario;
-/**
- *
- * @author reroes
- */
+
 public class Ejecutor {
     public static void main(String[] args) {
         // Crear el objeto Usuario
@@ -24,7 +16,8 @@ public class Ejecutor {
         
         factura.calcularValorFactura();
         
-        System.out.printf("Factura de Teléfono\n" +
+        System.out.printf("%s\n",factura);
+        /*System.out.printf("Factura de Teléfono\n" +
                 "Nombre: %s\n" +
                 "Apellido: %s\n" +
                 "Identificación: %s\n" +
@@ -38,6 +31,6 @@ public class Ejecutor {
                 factura.obtenerNumeroTelefono(),
                 factura.obtenerMinutosMes(),
                 factura.obtenerValorMinuto(),
-                factura.obtenerValorFactura());
+                factura.obtenerValorFactura());*/
     }
 }
